@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box1 {
+  height: 90vh;
+  width: 90vw;
+  background: lightgreen;
+  padding: 3rem;
+}
+
+.box2 {
+  background: lightskyblue;
+  height: 100%;
+  width: 100%;
+  padding: 3rem;
+}
+
+.box3 {
+  background: lightpink;
+  height: 100%;
+  width: 100%;
+  padding: 3rem;
+}
+
+.box4 {
+  background: rgb(168, 94, 168);
+  height: 43%;
+  margin: 1rem;
+}

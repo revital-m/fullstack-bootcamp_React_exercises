@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz {
+  border: 3px solid black;
+  width: max-content;
+  padding: 1rem;
+}
+
+.quizTitle {
+  margin-bottom: 1rem;
+}
+
+.q1,
+.q2 {
+  padding: 1rem;
+}
+
+.q1Title,
+.q2Title {
+  padding-bottom: 0.5rem;
+}
