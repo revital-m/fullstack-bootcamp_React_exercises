@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: max-content;
+}
+
+.num {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.black-color {
+  color: black;
+}
+
+.red-color {
+  color: rgb(179, 2, 2);
+}
+
+.green-color {
+  color: green;
+}
