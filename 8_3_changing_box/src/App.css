@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.box {
+  height: 30vmin;
+  width: 30vmin;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.bg-turquoise {
+  background: turquoise;
+}
+
+.bg-lightcoral {
+  background: lightcoral;
+}
+
+.bg-lightgreen {
+  background: lightgreen;
+}
+
+.bg-lightsalmon {
+  background: lightsalmon;
+}
+
+.bg-lightslategray {
+  background: lightslategray;
+}
+
+.bg-lightskyblue {
+  background: lightskyblue;
+}
