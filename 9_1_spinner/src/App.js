@@ -7,7 +7,7 @@ class App extends React.Component {
 
   hendleTimer = () => {
     setTimeout(() => {
-      this.setState({ count: this.state.count - 1 });
+      this.setState((state) => { return {count: state.count - 1} });
     }, 1000);
   };
 
