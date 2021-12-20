@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  overflow: hidden;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn__container--category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 0.2rem solid black;
+  padding: 1rem;
+  margin-top: 1rem;
+}
