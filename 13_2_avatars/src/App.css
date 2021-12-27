@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 90vh;
+}
+.container {
+  padding: 2rem;
+}
+
+.errMsg {
+  color: rgb(197, 1, 1);
+}

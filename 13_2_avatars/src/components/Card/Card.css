@@ -1,0 +1,22 @@
+.card {
+  width: 30vmin;
+  overflow: hidden;
+  margin: 1rem;
+  box-shadow: 5px 5px 20px gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardImg {
+  width: 100%;
+  max-height: 20vh;
+  object-fit: cover;
+}
+
+.cardInfo {
+  padding: 1rem;
+  text-align: center;
+  line-height: 1.6;
+}
