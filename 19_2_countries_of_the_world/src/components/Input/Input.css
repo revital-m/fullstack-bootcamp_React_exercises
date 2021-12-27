@@ -1,0 +1,18 @@
+.countryInput {
+  display: flex;
+  align-items: center;
+}
+
+.countryInput--label,
+.countryInput--info {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.countryInput--info {
+  border: 0.3rem solid #22072a;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
