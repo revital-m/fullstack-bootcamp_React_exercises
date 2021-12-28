@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.container {
+  padding: 2rem;
+}
+
+.show-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errMsg {
+  color: rgb(197, 1, 1);
+}

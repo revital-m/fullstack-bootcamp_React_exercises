@@ -1,0 +1,18 @@
+.searchInput {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput--label,
+.searchInput--info {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.searchInput--info {
+  border: 0.3rem solid #22072a;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
