@@ -2,34 +2,25 @@ import React, { useRef } from "react";
 import "./App.css";
 
 const App = () => {
-  const myVideo = useRef("");
+  const myVideo = useRef();
 
   const handlePlay = () => {
-    myVideo.play();
+    myVideo.current.play();
   };
 
   const handlePause = () => {
-    myVideo.pause();
+    myVideo.current.pause();
   };
 
   return (
     <div className="container">
-      <iframe
-        ref={myVideo}
-        width="560"
-        height="315"
-        src="/"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <button className="btn" onClick={handlePlay}>
-        Play
-      </button>
-      <button className="btn" onClick={handlePause}>
-        Pause
-      </button>
+      <video width="750" height="500" controls ref={myVideo}>
+        <source src="/Video/pexels-kelly-lacy-9722139.mp4" type="video/mp4" />
+      </video>
+      <div className="btn-container">
+        <button className="btn btn-play" onClick={handlePlay}></button>
+        <button className="btn btn-pause" onClick={handlePause}></button>
+      </div>
     </div>
   );
 };
